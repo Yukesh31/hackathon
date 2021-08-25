@@ -1,1 +1,66 @@
+body{
+    background-color: rgba(27, 218, 208, 0.966);
+    
+    
+}
+.box{
+    border-width:5px;  
+    border-style:double solid double solid;
+    background-image: linear-gradient(rgb(0, 247, 255), rgb(156, 228, 97));
+}
+.container{
 
+    width: 300px;
+    height: 300px;
+    background-image: linear-gradient(rgb(135, 250, 69), rgba(0, 162, 255, 0.76));
+    border-radius: 15px;
+    box-shadow: 5px 5px;
+    margin-top: 10px;
+
+    
+}
+h1{
+    text-align: center;
+    
+    background-image: linear-gradient(rgb(0, 247, 255), rgb(156, 228, 97));
+    
+    
+    
+}
+#name{
+    padding: 10px;
+    margin: 35px;
+}
+
+#button{
+    margin-top: 130px;
+    margin-left: 50px;
+transition: transform; 
+font-weight: bold;   
+border-radius: 7px;
+}
+#button:hover{
+    background-color: firebrick;
+    transform: scale(1.2);
+    color: rgb(135, 250, 69);
+}
+.searchContainer{
+    padding: 10px;
+    background-image: linear-gradient(rgb(135, 250, 69), rgba(0, 162, 255, 0.76));
+    border: 2px solid black;
+    width: max-content;
+    height: max-content;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    box-shadow: 5px 5px;
+    gap:50px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+h6{
+    font-weight: bolder;
+    text-decoration: underline;
+}
